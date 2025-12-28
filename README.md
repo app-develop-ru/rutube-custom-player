@@ -54,4 +54,4 @@ Need changes? We offer professional services:
 *   ✅ **Advanced features:** Analytics, playlist management.
 *   ✅ **Source code:** Available for enterprise purchase.
 
-[👉 Contact us for a quote](https://app-develop.ru)
+[![Contact us](https://img.shields.io/badge/👉_Contact_us_for_a_quote-0052CC?style=for-the-badge&logo=telegram&logoColor=white)](https://app-develop.ru)
