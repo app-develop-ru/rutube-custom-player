@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutube Player Demo</title>
+    
+    <!-- 1. Enabling the player styles -->
+    <link rel="stylesheet" href="rutube-player.min.css">
+
+    <style>
+        /* Some beauty for the demo page itself (not for the player) */
+        body { font-family: sans-serif; background: #f4f4f4; text-align: center; padding: 40px; }
+        .demo-container { display: flex; flex-direction: column; align-items: center; gap: 30px; }
+        h3 { margin: 10px 0 0; color: #555; }
+    </style>
+</head>
+<body>
+
+    <h1>Rutube Player Examples</h1>
+
+    <div class="demo-container">
+
+        <!-- Example 1 -->
+        <div>
+            <div class="rutube-player" data-video="f7fc4479a959b960948606c20c6ecb32" style="width: 600px;"></div>
+            <h3>Width: 600px (Auto height)</h3>
+        </div>
+
+        <!-- Example 2 -->
+        <div>
+            <div class="rutube-player" data-video="19f0320cf793cb197089479259f7213d" style="width: 400px;"></div>
+            <h3>Width: 400px (Auto height)</h3>
+        </div>
+
+        <!-- Example 3 -->
+        <div style="width: 300px;">
+            <div class="rutube-player" data-video="b72d7c3912ece5921889676fb5c57199"></div>
+            <h3>Width: 100% of parent (300px)</h3>
+        </div>
+
+    </div>
+
+    <!-- 2. Сonnecting the player script -->
+    <script src="rutube-player.min.js"></script>
+
+</body>
+</html>
